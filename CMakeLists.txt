@@ -30,6 +30,8 @@ FetchContent_MakeAvailable(googleBench)
 
 add_executable(orderbook
     src/main.cpp
+
+    include/core_data_structs.h
 )
 
 add_executable(orderbook_benchmark
