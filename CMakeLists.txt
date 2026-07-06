@@ -32,6 +32,9 @@ add_executable(orderbook
     src/main.cpp
 
     include/core_data_structs.h
+    include/orderbook.h
+
+    src/orderbook.cpp
 )
 
 add_executable(orderbook_benchmark
